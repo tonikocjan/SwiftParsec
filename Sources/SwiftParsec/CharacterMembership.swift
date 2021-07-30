@@ -26,7 +26,7 @@ extension Character {
         
         switch self {
             
-        case " ", "\t", "\n", "\r", "\r\n": return true
+        case " ", "\t", "\r", "\r\n": return true
             
         case "\u{000B}", "\u{000C}": return true // Form Feed, vertical tab
            
